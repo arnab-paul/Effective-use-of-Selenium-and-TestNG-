@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Resgression Testing(failed)">
+    <groups>
+      <run>
+        <include name="Regression Suite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="automation.testing.AutomatedTests">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC_25"/>
+          <include name="TC_28"/>
+          <include name="TC_29"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- automation.testing.AutomatedTests -->
+    </classes>
+  </test> <!-- Resgression Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
